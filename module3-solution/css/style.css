@@ -1,0 +1,95 @@
+/*
+====================
+Universals
+====================
+*/
+body{
+    background-color: #ccc!important;
+    font-family: 'Sriracha', cursive!important;
+}
+.main-content {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-bottom: 50px;
+}
+.navbar-brand{
+    color: #fff!important;
+    font-weight: bolder;
+}
+h1{
+    font-size: 3rem;
+}
+nav ul, nav button {
+    display: none!important;
+}
+nav ul li a{
+    color: #fff!important;
+}
+nav ul hr {
+    margin: 1px 0;
+    border-top: 2px solid #fff!important;
+    width: 100%;
+}
+
+.cards {
+    position: relative;
+    background-color: rgb(255, 242, 242);
+    padding: 40px!important;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.head {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background-color: rgb(71, 13, 13);
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+.cards a{
+    color: black!important;
+}
+.cards p {
+    padding-top: 20px;
+}
+a:hover {
+    text-transform: uppercase;
+    text-decoration: none!important;
+}
+#chicken , #beef , #sushi{
+    width: 120%;
+}
+
+@media (max-width:576px) {
+    nav ul, nav button {
+        display: inline!important;
+    }
+}
+
+@media (max-width:991px)  and (min-width:768px){
+    .main-content{
+       width: 500%!important;
+    }
+    .sushi  {
+        margin-top: 30px!important;
+    }
+
+}
+@media (max-width: 1199.98px) {
+    #chicken , #beef , #sushi{
+        width: 100%;
+    }
+}
+@media (max-width:575.98px) {
+    .cards{
+        width: 100%!important;
+        margin-top: 30px!important;
+    }
+}
+@media (max-width:767.98px) and (min-width:576px) {
+    .cards{
+        margin-top: 30px!important;
+    }
+}
